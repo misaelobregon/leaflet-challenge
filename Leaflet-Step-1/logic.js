@@ -33,7 +33,7 @@ function legend() {
 
         for (var i = 0; i < category.length; i++) {
             div.innerHTML = labels.push('<div class="square" style="background:' +
-                color[i] + '"></div><span class="explanation">' + cat[color.length - i - 1] + '</span>');
+                color[i] + '"></div><span class="explanation">' + category[color.length - i - 1] + '</span>');
         }
 
         div.innerHTML = labels.join('<br>');
